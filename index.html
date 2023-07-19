@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <style>body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: gold;
+      }
+      
+      header {
+        background-color:navy;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .logo img {
+        width: 200px;
+        height: 200px;
+      }
+      
+      h1 {
+        margin-top: 10px;
+      }
+      
+      section {
+        padding: 20px;
+      }
+      /* 
+      section#about img {
+        width: 200px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+      } */
+      
+      section#skills ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      section#skills ul li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+      
+      section#projects {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+      }
+      
+      section#projects .project img {
+        width: 100%;
+        border-radius: 5px;
+      }
+      
+      section#projects .project h3 {
+        margin-top: 10px;
+      }
+      
+      section#resume a {
+        text-decoration: none;
+      }
+      
+      footer {
+        background-color: #f5f5f5;
+        padding: 20px;
+        text-align: center;
+      }
+      img.profile-picture{
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }</style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h3 style="color: white; font-size: 30px;">protofolio</h3>
+            <img src="C:\Users\HP\Desktop\images\pxfuel.jpg" alt="My Logo" width="100" height="100" >
+        </div>
+    </header>
+    <section id="about">
+        <u><h2>About Me</h2></u>
+        <h1>Ruksana Begum</h1> 
+       <img src="C:\Users\HP\Desktop\images\rukimg.jpg" alt="My Picture" class="profile-picture" width = "200" height = "200"style="border-radius: 50%;">
+        <p>I am a passionate web developer with experience in HTML, CSS, and JavaScript. I love creating beautiful and interactive websites that provide a great user experience.</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Web Design</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="C:\Users\HP\Downloads\pro1.jpg" alt="Project 1" width="100" height="100">
+            <h3>Project 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero ut neque malesuada, eget interdum magna convallis.</p>
+        </div>
+        <div class="project">
+            <img src="C:\Users\HP\Downloads\pro2.jpg" alt="Project 2" width="100" height="100">
+            <h3>Project 2</h3>
+            <p>Integer dapibus, lectus id pulvinar ullamcorper, felis sem tincidunt justo, a dapibus tortor dolor nec ex.</p>
+        </div>
+    </section>
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>You can download my resume in PDF format <a href="resume.pdf">here</a>.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: mohammadruksana@gmail.com</p>
+        <p>Phone: 9908794567</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Ruksana. All rights reserved.</p>
+    </footer>
+</body>
+</html>
